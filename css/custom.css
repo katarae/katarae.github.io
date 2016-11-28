@@ -1,0 +1,189 @@
+fontawesome.navbar-text > a {
+    color: #18BC9C;
+    text-decoration: none;
+}
+body {
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+}
+
+{
+    font-family: 'bree', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #18BC9C;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF
+    background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #18BC9C;
+    background-color: transparent;;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover;
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #1A242F;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #2C3E50;
+    border-color: #2C3E50
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #1E2A36;
+    border-color: #161F29;
+}
+
+.btn-success {
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #FFFFFF;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success:active,
+.open .dropdown-toggle.btn-success {
+    color: #FFFFFF;
+    background-color: #13987E;
+    border-color: #13987E;
+}
+
+.btn-default {
+    background-color: #95A5A6;
+    border-color: #95A5A6;
+    color: #FFFFFF;
+}
+
+.btn-default: over,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active,
+.open .dropdown-toggle.btn-default {
+    color: #FFFFFF;
+    background-color: #7F9293;
+    border-color: #74898A;
+}
+
+/*
+Navy Blue: #2C3E50;
+Navy Blue Active: #1A242F;
+Turquoise: #18BC9C;
+White: #FFFFFF;
+
+BTN Primary: #2C3E50
+BTN Primary Hover: #1E2A36;
+BTN Primary Hover Boarder: #161F29;
+
+BTN Success: #18BC9C;
+BTN Success Hover: #13987E;
+BTN Success Hover Boarder: #11866F;
+
+BTN Default: #95A5A6;
+BTN Default Hover: #7F9293;
+BTN Default Hover Background: #74898A;
+*/
+
+.home-thumb img:hover {
+    transform: scale(1.1);
+}
+/*property, duration timing, delay */
+.thumbnail img {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+
+
+
+/* javascript dropdown
+
+/* Dropdown Button
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default)
+.dropdown-content {
+    display: table;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)
+.show {display:block;}
+
+*/
